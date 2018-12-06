@@ -27,7 +27,7 @@ export const Home = () => {
 
   return (
     <div>
-      <h1>Plese add a new todo</h1>
+      <h1>Please add a new todo</h1>
       <TodoForm addTodo={addTodo} />
        {todos.map((todo, index) => (
          <div>
